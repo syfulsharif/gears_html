@@ -1,0 +1,106 @@
+/* Fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;700&display=swap");
+
+/* Icons */
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+/* body */
+body {
+  font-family: "Poppins", sans-serif;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+/* Nav */
+nav {
+  margin-top: 87px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h2 {
+  font-size: 1.42rem;
+}
+.nav-menu ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+}
+
+.nav-menu ul li {
+  margin-right: 34px;
+}
+
+.nav-menu ul li a {
+  text-decoration: none;
+}
+
+/* Hero Section Styles */
+
+.hero {
+  display: flex;
+}
+
+.hero-text {
+  width: 60%;
+}
+
+.hero-text h1 {
+  font-size: 3.05rem;
+}
+
+.hero-text p {
+  font-size: 0.98rem;
+  font-weight: 700;
+  color: #3a3a3a;
+}
+
+.prebook-btn {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.prebook-btn h4 {
+  margin-right: 8px;
+}
+
+/* Hero Image */
+
+.hero {
+  margin-bottom: 70px;
+}
+
+.hero-image {
+  width: 40%;
+  margin-left: 130px;
+  background-image: url("images/Circle\ design.svg");
+  background-repeat: no-repeat;
+}
+
+.hero-image img {
+  transform: scale(0.9);
+}
+
+/* clients Section */
+
+.clients {
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.clients img {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  /* margin-left: 60px; */
+  transform: scale(0.9);
+}
